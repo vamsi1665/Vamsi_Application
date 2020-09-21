@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e4dada"
+    tools:context=".Main2activity">
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/srmseal"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:id="@+id/calgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Calculate GPA"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/gengpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Generate GPA"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

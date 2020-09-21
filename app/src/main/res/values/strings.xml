@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Vamsi Cgpa App</string>
+    <string-array name="grade">
+        <item>O</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C</item>
+        <item>P</item>
+        <item>F</item>
+        <item>Ab</item>
+        <item>I</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>CHOOSE YEAR</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+    </string-array>
+
+    <string-array name="Branch">
+        <item>CHOOSE BRANCH</item>
+        <item>CSE</item>
+        <item>MECH</item>
+        <item>EEE</item>
+        <item>ECE</item>
+        <item>IT</item>
+        <item>CIVIL</item>
+        <item>AERONATICAL</item>
+        <item>B.ARCH</item>
+        <item>BIO-TECH</item>
+        <item>NANO-TECH</item>
+        <item>SE</item>
+    </string-array>
+
+    <string-array name="Section">
+        <item>CHOOSE SECTION</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+    </string-array>
+</resources>

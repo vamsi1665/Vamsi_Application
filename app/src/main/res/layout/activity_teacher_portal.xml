@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="16dp"
+    tools:context=".Teacher_portal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_teacher"
+        tools:ignore="VectorDrawableCompat" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Enter Details"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:id="@+id/spinner"
+        android:entries="@array/Branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Spinner
+        android:layout_margin="16dp"
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Year"
+        />
+
+    <Spinner
+        android:layout_margin="16dp"
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Section"
+        />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+</LinearLayout>
